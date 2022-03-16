@@ -1,0 +1,24 @@
+body {
+    background-image: url("assets/OOOZ-transparent.png");
+    background-repeat: repeat-y;
+    background-size:cover;
+}
+
+.title-bar {
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #0267C1;
+}
+
+.title {
+    color: white;
+    font-size: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+* { margin: 0; padding: 0; border: none; }
