@@ -9,6 +9,8 @@ body {
     right: 0;
     top: 0;
     background-color: #0267C1;
+    display:flex;
+    justify-content: center;
 }
 
 .title {
@@ -21,4 +23,25 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.logo {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 20%;
+}
+
+#left-logo {
+    margin-right: 5%;
+}
+
+#right-logo {
+    margin-left: 5%;
+}
+
 * { margin: 0; padding: 0; border: none; }
+
+.charts {
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+}
