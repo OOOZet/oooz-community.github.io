@@ -1,7 +1,7 @@
 body {
     background-image: url("assets/OOOZ-transparent.png");
     background-repeat: repeat-y;
-    background-size:cover;
+    background-size:contain;
 }
 
 .title-bar {
@@ -44,4 +44,47 @@ body {
     margin-top: 20px;
     display:flex;
     justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    padding-bottom: 0;
+    padding-top: 50px;
+}
+
+.chart {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.line {
+    background-color: #0267C1;
+    height: 5px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+footer {
+    text-align: center;
+    background-color: #0267C1;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.avatar {
+    width: 20px;
+    padding-top: 5px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50px;
+    vertical-align:sub;
 }
